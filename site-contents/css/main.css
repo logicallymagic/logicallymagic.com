@@ -761,6 +761,7 @@ main .meta.name p {
   list-style: none;
   margin: 2.5rem 0 0;
   padding: 0;
+  filter: grayscale(1);
 }
 @media (min-width: 768px) {
   .about__content__full-box .client-list {
