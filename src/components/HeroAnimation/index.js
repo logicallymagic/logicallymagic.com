@@ -163,30 +163,25 @@ export default function HeroAnimation({className}) {
 
     // ---- Render loop ------------------------------------------------------
     let frame = 0;
-    const prefersReducedMotion = window.matchMedia(
-      '(prefers-reduced-motion: reduce)'
-    ).matches;
 
     const render = () => {
       frame = requestAnimationFrame(render);
 
-      if (!prefersReducedMotion) {
-        // camera.position.x/y ease toward (mouseX, -mouseY + 200).
-        cameraX += (mouseX - cameraX) * 0.05;
-        cameraY += (-mouseY + 200 - cameraY) * 0.05;
+      // camera.position.x/y ease toward (mouseX, -mouseY + 200).
+      cameraX += (mouseX - cameraX) * 0.05;
+      cameraY += (-mouseY + 200 - cameraY) * 0.05;
 
-        // Idle self-drift, bouncing at ±500 — as in the original.
-        if (mouseX < -500 || mouseX > 500) {
-          directionX *= -1;
-          mouseX = mouseX > 0 ? 500 : -500;
-        }
-        if (mouseY < -500 || mouseY > 500) {
-          directionY *= -1;
-          mouseY = mouseY > 0 ? 500 : -500;
-        }
-        mouseX += directionX;
-        mouseY += directionY;
+      // Idle self-drift, bouncing at ±500 — as in the original.
+      if (mouseX < -500 || mouseX > 500) {
+        directionX *= -1;
+        mouseX = mouseX > 0 ? 500 : -500;
       }
+      if (mouseY < -500 || mouseY > 500) {
+        directionY *= -1;
+        mouseY = mouseY > 0 ? 500 : -500;
+      }
+      mouseX += directionX;
+      mouseY += directionY;
 
       updateBasis();
 
