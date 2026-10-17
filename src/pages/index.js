@@ -5,13 +5,6 @@ import HeroAnimation from '@site/src/components/HeroAnimation';
 import ProductCard from '@site/src/components/ProductCard';
 import {products, productCategories} from '@site/src/data/products';
 
-const stats = [
-  {value: '8', label: 'Sentin8 verticals'},
-  {value: '4', label: 'PRIME capital markets products'},
-  {value: '5', label: 'AI-driven products'},
-  {value: '3', label: 'Industries transformed'},
-];
-
 const highlights = [
   {
     icon: '\u{1F512}',
@@ -95,23 +88,6 @@ export default function Home() {
                 </div>
               ))}
             </div>
-          </div>
-        </section>
-
-        <section className="lm-section lm-section--alt">
-          <div className="container">
-            <div className="lm-section__head">
-              <span className="lm-section__eyebrow">The Numbers</span>
-              <h2 className="lm-section__title">One platform, many industries</h2>
-            </div>
-            <ul className="stats-band">
-              {stats.map((s) => (
-                <li className="stats-band__item" key={s.label}>
-                  <div className="stats-band__value">{s.value}</div>
-                  <div className="stats-band__label">{s.label}</div>
-                </li>
-              ))}
-            </ul>
           </div>
         </section>
 

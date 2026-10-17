@@ -23,11 +23,11 @@
   --ifm-color-primary-light: #1d5e94;
   --ifm-color-primary-lighter: #26689d;
   --ifm-color-primary-lightest: #3f7fb5;
-  --ifm-font-family-base: 'Karla', system-ui, -apple-system, 'Segoe UI', Roboto,
-    sans-serif;
+  --ifm-font-family-base: 'Quicksand', system-ui, -apple-system, 'Segoe UI',
+    Roboto, sans-serif;
   --ifm-font-size-base: 17px;
-  --ifm-heading-font-family: 'Montserrat', var(--ifm-font-family-base);
-  --ifm-heading-font-weight: 700;
+  --ifm-heading-font-family: 'Rock Salt', var(--ifm-font-family-base);
+  --ifm-heading-font-weight: 400;
   --ifm-navbar-height: 68px;
   --ifm-navbar-background-color: rgba(255, 255, 255, 0.85);
   --ifm-navbar-shadow: 0 1px 0 var(--lm-border);
@@ -54,6 +54,7 @@ html {
 }
 
 .navbar__link {
+  font-family: var(--ifm-font-family-base);
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.03em;
@@ -122,20 +123,19 @@ html {
 
 .lm-hero__kicker {
   font-family: var(--ifm-heading-font-family);
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.35em;
-  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
   color: var(--lm-muted);
   margin: 0 0 18px;
 }
 
 .lm-hero__title {
   font-family: var(--ifm-heading-font-family);
-  font-size: clamp(2.4rem, 6vw, 4.2rem);
-  font-weight: 800;
-  line-height: 1.08;
-  letter-spacing: -0.015em;
+  font-size: clamp(1.9rem, 4.6vw, 3.2rem);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0;
   margin: 0;
   color: var(--lm-text);
 }
@@ -215,7 +215,7 @@ html {
 
 .lm-section__eyebrow {
   display: inline-block;
-  font-family: var(--ifm-heading-font-family);
+  font-family: var(--ifm-font-family-base);
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.3em;
@@ -226,11 +226,12 @@ html {
 
 .lm-section__title {
   font-family: var(--ifm-heading-font-family);
-  font-size: clamp(1.7rem, 3.4vw, 2.5rem);
-  font-weight: 800;
-  letter-spacing: -0.01em;
+  font-size: clamp(1.4rem, 2.8vw, 2rem);
+  font-weight: 400;
+  letter-spacing: 0;
   color: var(--lm-text);
   margin: 0 0 14px;
+  line-height: 1.4;
 }
 
 .lm-section__lead {
@@ -296,10 +297,11 @@ html {
 
 .product-card__title {
   font-family: var(--ifm-heading-font-family);
-  font-size: 1.15rem;
-  font-weight: 700;
+  font-size: 1.05rem;
+  font-weight: 400;
   color: var(--lm-text);
   margin: 0;
+  line-height: 1.5;
 }
 
 .product-card__desc {
@@ -347,10 +349,11 @@ html {
 
 .feature__title {
   font-family: var(--ifm-heading-font-family);
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1rem;
   color: var(--lm-text);
   margin: 0 0 6px;
+  line-height: 1.5;
 }
 
 .feature__text {
@@ -358,38 +361,6 @@ html {
   line-height: 1.55;
   color: var(--lm-muted);
   margin: 0;
-}
-
-/* ---------- Stats band ---------- */
-.stats-band {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 18px;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.stats-band__item {
-  min-width: 150px;
-  text-align: center;
-}
-
-.stats-band__value {
-  font-family: var(--ifm-heading-font-family);
-  font-size: 2.2rem;
-  font-weight: 800;
-  color: var(--lm-blue);
-  line-height: 1;
-  margin-bottom: 6px;
-}
-
-.stats-band__label {
-  font-size: 0.85rem;
-  color: var(--lm-muted);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
 }
 
 /* ---------- Client logo strip ---------- */
@@ -439,8 +410,11 @@ html {
 
 .cta-band h2 {
   color: #fff;
-  font-size: 2rem;
+  font-family: var(--ifm-heading-font-family);
+  font-size: 1.7rem;
+  font-weight: 400;
   margin-bottom: 12px;
+  line-height: 1.4;
 }
 
 .cta-band p {
@@ -463,11 +437,11 @@ html {
 /* ---------- Markdown (docs) ---------- */
 .markdown h1 {
   font-family: var(--ifm-heading-font-family);
-  letter-spacing: -0.015em;
+  letter-spacing: 0;
 }
 
 .markdown > header h1 {
-  font-size: 2.2rem;
+  font-size: 1.9rem;
 }
 
 .docs-wrapper .theme-doc-markdown {
@@ -508,10 +482,11 @@ html {
 
 .lm-callout__title {
   font-family: var(--ifm-heading-font-family);
-  font-weight: 700;
+  font-weight: 400;
   margin: 0 0 4px;
   color: var(--lm-blue);
   font-size: 1rem;
+  line-height: 1.5;
 }
 
 .lm-callout p {
@@ -529,7 +504,7 @@ html {
 
 .markdown table th {
   background: #f0f3f8;
-  font-family: var(--ifm-heading-font-family);
+  font-family: var(--ifm-font-family-base);
   text-transform: uppercase;
   font-size: 0.78rem;
   letter-spacing: 0.08em;

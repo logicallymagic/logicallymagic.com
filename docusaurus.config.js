@@ -21,6 +21,13 @@ const config = {
     locales: ['en'],
   },
 
+  stylesheets: [
+    {
+      href: 'https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Rock+Salt&display=swap',
+      rel: 'stylesheet',
+    },
+  ],
+
   presets: [
     [
       'classic',
