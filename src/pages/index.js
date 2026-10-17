@@ -172,6 +172,7 @@ export default function Home() {
                 'treb-logo.png',
                 'royal-lepage-logo.png',
                 'ireal-logo.png',
+                'iEHR.png',
                 'microsoft-logo.png',
                 'google-logo.png',
                 'aws-logo.png',
