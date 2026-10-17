@@ -91,6 +91,66 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="lm-section lm-section--alt">
+          <div className="container">
+            <div className="lm-section__head">
+              <span className="lm-section__eyebrow">Open Source</span>
+              <h2 className="lm-section__title">Committed to the open web</h2>
+              <p className="lm-section__lead">
+                We build in the open. Across our organizations we design and
+                maintain 95+ repositories — sharing our code, our
+                architectures, and our design docs openly. From the Sentin8
+                platform's design decisions to full product source, we
+                believe knowledge compounds when it's shared.
+              </p>
+            </div>
+            <div className="feature-grid">
+              <div className="feature">
+                <div className="feature__icon">{'\u{1F4DA}'}</div>
+                <h3 className="feature__title">95+ repositories</h3>
+                <p className="feature__text">
+                  Actively designed and maintained across our organizations —
+                  platform verticals, SDKs, tooling, and reference designs.
+                </p>
+              </div>
+              <div className="feature">
+                <div className="feature__icon">{'\u{1F4D6}'}</div>
+                <h3 className="feature__title">Design in the open</h3>
+                <p className="feature__text">
+                  Our architecture and design documents live next to the
+                  code — event-sourcing blueprints, tenancy models, and the
+                  reasoning behind every major decision.
+                </p>
+              </div>
+              <div className="feature">
+                <div className="feature__icon">{'\u{1F527}'}</div>
+                <h3 className="feature__title">Code you can read</h3>
+                <p className="feature__text">
+                  From the platform SDKs to complete verticals — the same
+                  engineering that powers our products is available to study,
+                  use, and build on.
+                </p>
+              </div>
+              <div className="feature">
+                <div className="feature__icon">{'\u{1F91D}'}</div>
+                <h3 className="feature__title">Built together</h3>
+                <p className="feature__text">
+                  We contribute upstream, publish what we learn, and help the
+                  next builder start further ahead than we did.
+                </p>
+              </div>
+            </div>
+            <div className="lm-section__actions">
+              <Link
+                className="button button--outline button--primary button--lg"
+                to="https://github.com/logicallymagic"
+              >
+                Explore on GitHub
+              </Link>
+            </div>
+          </div>
+        </section>
+
         <section className="lm-section">
           <div className="container">
             <div className="lm-section__head">

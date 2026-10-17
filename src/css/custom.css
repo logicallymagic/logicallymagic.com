@@ -241,6 +241,14 @@ html {
   margin: 0;
 }
 
+.lm-section__actions {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 34px;
+}
+
 /* ---------- Card grid ---------- */
 .card-grid {
   display: grid;
