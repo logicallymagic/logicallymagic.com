@@ -118,7 +118,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} logically MAGIC Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} logically MAGIC Inc.`,
       },
       prism: {
         theme: prismThemes.oneDark,
