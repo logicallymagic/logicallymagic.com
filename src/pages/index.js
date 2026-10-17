@@ -119,11 +119,12 @@ export default function Home() {
           <div className="container">
             <div className="lm-section__head">
               <span className="lm-section__eyebrow">Product Families</span>
-              <h2 className="lm-section__title">Three families, one DNA</h2>
+              <h2 className="lm-section__title">One platform, every industry</h2>
               <p className="lm-section__lead">
-                From the Sentin8 platform to the PRIME capital markets suite to
-                applied AI — each family solves a different class of problem
-                with the same engineering rigour.
+                From the Sentin8 platform to the PRIME capital markets suite —
+                and the verticals it powers across banking, commerce,
+                hospitality, healthcare, and beyond. One DNA everywhere:
+                rigorous engineering, measurable outcomes.
               </p>
             </div>
             <div className="card-grid">
