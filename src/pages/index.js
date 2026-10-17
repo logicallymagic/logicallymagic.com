@@ -95,7 +95,7 @@ export default function Home() {
           <div className="container">
             <div className="lm-section__head">
               <span className="lm-section__eyebrow">Open Source</span>
-              <h2 className="lm-section__title">Committed to the open web</h2>
+              <h2 className="lm-section__title">Committed to the open community</h2>
               <p className="lm-section__lead">
                 We build in the open. Across our organizations we design and
                 maintain 95+ repositories — sharing our code, our
@@ -140,14 +140,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="lm-section__actions">
-              <Link
-                className="button button--outline button--primary button--lg"
-                to="https://github.com/logicallymagic"
-              >
-                Explore on GitHub
-              </Link>
-            </div>
+
           </div>
         </section>
 
