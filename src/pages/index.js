@@ -37,9 +37,9 @@ export default function Home() {
       <header className="lm-hero">
         <HeroAnimation className="lm-hero__canvas" />
         <div className="lm-hero__inner">
-          <p className="lm-hero__kicker">Products in the 5<sup>th</sup> Dimension</p>
+          <p className="lm-hero__kicker">Magic in the Making</p>
           <h1 className="lm-hero__title">
-           Magic in the Making 
+            Products in the 5<sup>th</sup> Dimension
           </h1>
           <p className="lm-hero__lead">
             We are responsible for all kinds of weird and wonderful stuff —
