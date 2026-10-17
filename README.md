@@ -28,18 +28,38 @@ npm run serve     # serve the build locally
 
 ## Deploy
 
-The previous static site was deployed with:
+The site publishes automatically to **GitHub Pages** via the
+[`deploy.yml`](.github/workflows/deploy.yml) workflow on every push to
+`master`.
+
+- **Pages URL**: https://logicallymagic.github.io/logicallymagic.com/
+  (preview host — assets are built for the custom domain, so it may show a
+  Docusaurus baseUrl notice; the custom domain below is the real target)
+- **Custom domain**: the build carries `static/CNAME`
+  (`www.logicallymagic.com`). Once the domain is attached in repo
+  Settings → Pages, GitHub serves the site there with HTTPS.
+
+Manual fallback (publishes `./build` to the `gh-pages` branch):
 
 ```bash
-gsutil rsync -R <site> gs://www.logicallymagic.com
+npm run build
+npm run deploy
 ```
 
-For the Docusaurus build, deploy the generated `build/` directory to the
-same bucket:
+### Attaching the custom domain
 
-```bash
-gsutil rsync -R build gs://www.logicallymagic.com
-```
+The domain currently points elsewhere (Vercel). To cut over to GitHub
+Pages, in your DNS provider:
+
+1. Apex `logicallymagic.com` — A records:
+   `185.199.108.153`, `185.199.109.153`, `185.199.110.153`,
+   `185.199.111.153`
+2. `www.logicallymagic.com` — CNAME → `logicallymagic.github.io`
+3. In the repo: Settings → Pages → Custom domain → `www.logicallymagic.com`,
+   then enable **Enforce HTTPS** once the certificate is issued.
+
+The site stays on Vercel until DNS changes propagate — nothing goes
+offline during setup.
 
 ## Structure
 
