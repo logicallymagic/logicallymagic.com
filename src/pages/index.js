@@ -31,7 +31,7 @@ const highlights = [
 export default function Home() {
   return (
     <Layout
-      title="Engineering in the 5th Dimension"
+      title="Ideas in the 5th Dimension"
       description="logically MAGIC builds Sentin8, the post-quantum multi-vertical platform, and the PRIME suite for capital markets — AI-driven products for banking, trading, hospitality, and healthcare."
     >
       <header className="lm-hero">
@@ -39,7 +39,7 @@ export default function Home() {
         <div className="lm-hero__inner">
           <p className="lm-hero__kicker">Magic in the Making</p>
           <h1 className="lm-hero__title">
-            Engineering in the 5<sup>th</sup> Dimension
+            Ideas in the 5<sup>th</sup> Dimension
           </h1>
           <p className="lm-hero__lead">
             We are responsible for all kinds of weird and wonderful stuff —

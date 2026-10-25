@@ -13,7 +13,7 @@ export default function ProductsIndex() {
       <main>
         <section className="lm-hero" style={{minHeight: 'auto', padding: '72px 24px 32px'}}>
           <div className="lm-hero__inner">
-            <p className="lm-hero__kicker">Engineering in the 5th Dimension</p>
+            <p className="lm-hero__kicker">Ideas in the 5th Dimension</p>
             <h1 className="lm-hero__title" style={{fontSize: 'clamp(2rem, 4.5vw, 3rem)'}}>
               Our product portfolio
             </h1>
