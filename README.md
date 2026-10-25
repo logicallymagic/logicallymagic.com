@@ -1,4 +1,4 @@
-# logically MAGIC — Products in the 5th Dimension
+# logically MAGIC — Engineering in the 5th Dimension
 
 The official website of **logically MAGIC Inc**, built with
 [Docusaurus 3](https://docusaurus.io/). Replaces the legacy static site

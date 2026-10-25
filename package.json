@@ -2,7 +2,7 @@
   "name": "logicallymagic-website",
   "version": "1.0.0",
   "private": true,
-  "description": "logically MAGIC — Products in the 5th Dimension. Official website built with Docusaurus.",
+  "description": "logically MAGIC — Engineering in the 5th Dimension. Official website built with Docusaurus.",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
