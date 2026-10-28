@@ -27,6 +27,17 @@ export const products = [
     external: 'https://bank8.dev/',
   },
   {
+    id: 'openfin8',
+    name: 'OpenFin8',
+    category: 'Banking',
+    tagline: 'Consent-first open finance',
+    description:
+      'An open-finance consent authority with jurisdiction adapters (FDX, OBL) — share customer data only under explicit, revocable, field-minimized consent.',
+    image: '/img/project-grid/openfin8.jpg',
+    href: '/products/sentin8-platform/openfin8',
+    external: 'https://openfin8.dev/',
+  },
+  {
     id: 'exchange8',
     name: 'Exchange8',
     category: 'Capital Markets',
@@ -221,7 +232,7 @@ export const productCategories = [
   {
     label: 'Banking',
     description:
-      'Core ledger, payments, and open banking — Bank8 and the Open Banking AI Data Access Platform.',
+      'Core ledger, payments, and open finance — Bank8 and the consent-first OpenFin8 data-sharing vertical.',
     href: '/products/sentin8-platform/bank8',
     icon: '\u{1F3E6}',
   },

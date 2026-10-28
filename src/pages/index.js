@@ -111,6 +111,7 @@ export default function Home() {
                 <p className="feature__text">
                   Actively designed and maintained across our organizations —
                   platform verticals, SDKs, tooling, and reference designs.
+                  Now the open-finance consensus layer, too.
                 </p>
               </div>
               <div className="feature">
@@ -151,9 +152,9 @@ export default function Home() {
               <h2 className="lm-section__title">One platform, every industry</h2>
               <p className="lm-section__lead">
                 From the Sentin8 platform to the PRIME capital markets suite —
-                and the verticals it powers across banking, commerce,
-                hospitality, healthcare, and beyond. One DNA everywhere:
-                rigorous engineering, measurable outcomes.
+                and the verticals it powers across banking, open finance,
+                commerce, hospitality, healthcare, and beyond. One DNA
+                everywhere: rigorous engineering, measurable outcomes.
               </p>
             </div>
             <div className="card-grid">

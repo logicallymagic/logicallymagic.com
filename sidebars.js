@@ -8,6 +8,7 @@ const sidebars = {
       items: [
         'sentin8-platform/sentin8',
         'sentin8-platform/bank8',
+        'sentin8-platform/openfin8',
         'sentin8-platform/exchange8',
         'sentin8-platform/trade8',
         'sentin8-platform/bill8',
