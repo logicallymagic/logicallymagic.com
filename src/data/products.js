@@ -33,7 +33,7 @@ export const products = [
     tagline: 'Consent-first open finance',
     description:
       'An open-finance consent authority with jurisdiction adapters (FDX, OBL) — share customer data only under explicit, revocable, field-minimized consent.',
-    image: '/img/project-grid/openfin8.jpg',
+    image: '/img/project-grid/openfin8.png',
     href: '/products/sentin8-platform/openfin8',
     external: 'https://openfin8.dev/',
   },

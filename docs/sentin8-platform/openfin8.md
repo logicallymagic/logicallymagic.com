@@ -3,7 +3,7 @@ title: OpenFin8 — open finance
 sidebar_label: OpenFin8
 sidebar_position: 3
 description: OpenFin8 is the open-finance vertical of the Sentin8 platform — a consent-first authority for sharing financial data under explicit, revocable, field-minimized consent across FDX and OBL jurisdictions.
-image: /img/project-grid/openfin8.jpg
+image: /img/project-grid/openfin8.png
 keywords: [open finance, open banking, fdx, obl, consent, data sharing, crd, csdf, fintech]
 ---
 
@@ -12,7 +12,7 @@ import Link from '@docusaurus/Link';
 # OpenFin8
 
 <div className="doc-image-frame">
-  <img src="/img/project-grid/openfin8.jpg" alt="OpenFin8" />
+  <img src="/img/project-grid/openfin8.png" alt="OpenFin8" />
 </div>
 
 OpenFin8 is the open-finance vertical of the Sentin8 platform — the consent
