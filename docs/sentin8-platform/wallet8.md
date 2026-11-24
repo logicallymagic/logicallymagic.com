@@ -1,7 +1,7 @@
 ---
 title: Wallet8 — the digital wallet vertical
 sidebar_label: Wallet8
-sidebar_position: 9
+sidebar_position: 3
 description: Wallet8 is the wallet vertical of the Sentin8 platform — an OID4VCI/OID4VP wallet with a sealed credential vault, device-bound proofs, and consent on every presentation.
 image: /img/project-grid/wallet8.png
 keywords: [digital wallet, oid4vci, oid4vp, verifiable credentials, eudi, eidas, sd-jwt, mdoc, haip, dcql]
