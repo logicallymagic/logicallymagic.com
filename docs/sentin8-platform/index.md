@@ -49,6 +49,7 @@ on day one.
   <ProductCard product={{id: 'email8', name: 'Email8', category: 'Communication', tagline: 'Email vertical', description: 'SMTP/LMTP transfer engine with a JMAP collaboration data core.', image: '/img/project-grid/email8.jpg', href: '/products/sentin8-platform/email8'}} />
   <ProductCard product={{id: 'hotel8', name: 'Hotel8', category: 'Hospitality', tagline: 'Hospitality vertical', description: 'Property management, POS, channel distribution, and loyalty in one vertical.', image: '/img/project-grid/hotel8.jpg', href: '/products/sentin8-platform/hotel8'}} />
   <ProductCard product={{id: 'health8', name: 'Health8', category: 'Healthcare', tagline: 'Healthcare vertical', description: 'The eighth vertical of the Sentin8 platform, currently in design.', image: '/img/project-grid/health8-thumb.svg', href: '/products/sentin8-platform/health8'}} />
+  <ProductCard product={{id: 'wallet8', name: 'Wallet8', category: 'Identity & Credentials', tagline: 'Wallet vertical', description: 'A consent-first digital-credential wallet with a sealed vault, device-bound proofs, and selective disclosure.', image: '/img/project-grid/wallet8.png', href: '/products/sentin8-platform/wallet8'}} />
 </div>
 
 ## Product website

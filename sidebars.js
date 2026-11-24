@@ -15,6 +15,7 @@ const sidebars = {
         'sentin8-platform/email8',
         'sentin8-platform/hotel8',
         'sentin8-platform/health8',
+        'sentin8-platform/wallet8',
       ],
     },
     {

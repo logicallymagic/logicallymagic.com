@@ -153,8 +153,9 @@ export default function Home() {
               <p className="lm-section__lead">
                 From the Sentin8 platform to the PRIME capital markets suite —
                 and the verticals it powers across banking, open finance,
-                commerce, hospitality, healthcare, and beyond. One DNA
-                everywhere: rigorous engineering, measurable outcomes.
+                commerce, hospitality, healthcare, digital credentials, and
+                beyond. One DNA everywhere: rigorous engineering, measurable
+                outcomes.
               </p>
             </div>
             <div className="card-grid">

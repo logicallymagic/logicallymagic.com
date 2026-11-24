@@ -104,6 +104,17 @@ export const products = [
     external: 'https://sentin8.dev/docs/verticals/',
   },
   {
+    id: 'wallet8',
+    name: 'Wallet8',
+    category: 'Identity & Credentials',
+    tagline: 'A consent-first digital wallet',
+    description:
+      'An OID4VCI/OID4VP wallet with a sealed credential vault, device-bound proofs, and selective disclosure — the wallet platform every vertical embeds.',
+    image: '/img/project-grid/wallet8.png',
+    href: '/products/sentin8-platform/wallet8',
+    external: 'https://wallet8.dev/',
+  },
+  {
     id: 'exchangeprime',
     name: 'exchangePRIME',
     category: 'Capital Markets',
