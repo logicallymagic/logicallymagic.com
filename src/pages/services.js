@@ -4,32 +4,26 @@ import Layout from '@theme/Layout';
 export default function Services() {
   const services = [
     {
-      icon: '\u{1F3AF}',
       title: 'Concept & Strategy',
       text: 'We turn ambiguous goals into a concrete product thesis: market sizing, competitive analysis, and a phased roadmap your board can rally behind.',
     },
     {
-      icon: '\u{1F4D0}',
       title: 'Architecture & Platform Design',
       text: 'Event-sourced cores, CQRS, message-driven microservices, zero-static-secret security — blueprints that take days instead of weeks.',
     },
     {
-      icon: '\u{1F916}',
       title: 'AI & Machine Learning',
       text: 'From best-execution models to predictive valuations — practical ML that ships to production, not slideware.',
     },
     {
-      icon: '\u{1F6E1}\uFE0F',
       title: 'Regulated Fintech Delivery',
       text: 'FAPI 2.0, ISO 20022, post-quantum readiness. We build for auditors and regulators from day one.',
     },
     {
-      icon: '\u26A1',
       title: 'Performance Engineering',
       text: 'Sub-microsecond paths for trading systems; elastic, self-healing infrastructure for everything else.',
     },
     {
-      icon: '\u{1F464}',
       title: 'Leadership & Change',
       text: 'We bring change, vision, and leadership to complex technology initiatives — expanding market share and enhancing revenues.',
     },
@@ -61,7 +55,6 @@ export default function Services() {
             <div className="feature-grid">
               {services.map((s) => (
                 <div className="feature" key={s.title}>
-                  <div className="feature__icon">{s.icon}</div>
                   <h3 className="feature__title">{s.title}</h3>
                   <p className="feature__text">{s.text}</p>
                 </div>

@@ -3,7 +3,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'logically MAGIC',
-  tagline: 'Ideas in the 5th Dimension',
+  tagline: 'Enterprise in the 5th Dimension',
   favicon: 'img/favicons/favicon-32x32.png',
 
   url: 'https://www.logicallymagic.com',
@@ -23,7 +23,7 @@ const config = {
 
   stylesheets: [
     {
-      href: 'https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Rock+Salt&display=swap',
+      href: 'https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap',
       rel: 'stylesheet',
     },
   ],
@@ -66,7 +66,7 @@ const config = {
         {
           name: 'description',
           content:
-            'logically MAGIC | Ideas in the 5th Dimension — creators of Sentin8, the post-quantum multi-vertical platform, and the PRIME suite for capital markets.',
+            'logically MAGIC | Enterprise in the 5th Dimension — creators of Sentin8, the post-quantum multi-vertical platform, and the PRIME suite for capital markets.',
         },
         {
           name: 'keywords',

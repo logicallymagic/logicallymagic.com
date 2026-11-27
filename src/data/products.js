@@ -223,14 +223,12 @@ export const productCategories = [
     description:
       'A post-quantum, zero-static-secret platform for regulated multi-vertical software.',
     href: '/products/sentin8-platform',
-    icon: '\u{1F6E1}',
   },
   {
     label: 'Capital Markets',
     description:
       'The PRIME suite — exchanges, brokerages, trading, and smart order routing.',
     href: '/products/capital-markets',
-    icon: '\u{1F4C8}',
   },
   {
     label: 'AI & Applied Intelligence',
@@ -238,48 +236,41 @@ export const productCategories = [
       'Machine learning products for finance, real estate, healthcare, and sport.',
     href: '/products/ai',
     hrefAlt: '/products/capital-markets/sorprime',
-    icon: '\u{1F9E0}',
   },
   {
     label: 'Banking',
     description:
       'Core ledger, payments, and open finance — Bank8 and the consent-first OpenFin8 data-sharing vertical.',
     href: '/products/sentin8-platform/bank8',
-    icon: '\u{1F3E6}',
   },
   {
     label: 'Commerce',
     description:
       'Billing and payments for platforms — merchants, checkout, recurring billing, and fraud screening with Bill8.',
     href: '/products/sentin8-platform/bill8',
-    icon: '\u{1F6D2}',
   },
   {
     label: 'Hospitality',
     description:
       'Property management, POS, channel distribution, loyalty, and guest upsell — Hotel8.',
     href: '/products/sentin8-platform/hotel8',
-    icon: '\u{1F3E8}',
   },
   {
     label: 'Healthcare',
     description:
       'Distributed care delivery and records — iEHR in production, Health8 in design.',
     href: '/products/ai/iehr',
-    icon: '\u{1F3E5}',
   },
   {
     label: 'Real Estate',
     description:
       'Interactive, predictive valuations with iReal.Ai.',
     href: '/products/ai/ireal',
-    icon: '\u{1F3E1}',
   },
   {
     label: 'Communication',
     description:
       'Modern email infrastructure — transfer engine, JMAP data core, and full-protocol access.',
     href: '/products/sentin8-platform/email8',
-    icon: '\u{2709}\uFE0F',
   },
 ];

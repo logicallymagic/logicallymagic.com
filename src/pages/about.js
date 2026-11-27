@@ -46,7 +46,6 @@ export default function About() {
               </div>
               <div className="col col--5">
                 <div className="feature">
-                  <div className="feature__icon">{'\u{1F30D}'}</div>
                   <h3 className="feature__title">Toronto-based, globally delivered</h3>
                   <p className="feature__text">
                     We serve clients across North America in finance, real
@@ -54,7 +53,6 @@ export default function About() {
                   </p>
                 </div>
                 <div className="feature" style={{marginTop: 18}}>
-                  <div className="feature__icon">{'\u{1F52E}'}</div>
                   <h3 className="feature__title">Research-driven</h3>
                   <p className="feature__text">
                     Our published work — from self-healing elastic

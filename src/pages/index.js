@@ -7,22 +7,18 @@ import {products, productCategories} from '@site/src/data/products';
 
 const highlights = [
   {
-    icon: '\u{1F512}',
     title: 'Post-quantum security',
     text: 'Sentin8 eliminates static secrets and delivers live authorization with mandatory tenant isolation.',
   },
   {
-    icon: '\u26A1',
     title: 'Ultra-low latency',
     text: 'Sub-microsecond connectivity for HFT and algorithmic trading, proven in production exchanges.',
   },
   {
-    icon: '\u{1F9E0}',
     title: 'AI at the core',
     text: 'Machine learning drives best execution, liquidity prediction, valuations, and motion analysis.',
   },
   {
-    icon: '\u{1F3D7}\uFE0F',
     title: 'Built to scale',
     text: 'Self-healing, elastic, event-sourced architectures that grow with your business.',
   },
@@ -31,7 +27,7 @@ const highlights = [
 export default function Home() {
   return (
     <Layout
-      title="Ideas in the 5th Dimension"
+      title="Enterprise in the 5th Dimension"
       description="logically MAGIC builds Sentin8, the post-quantum multi-vertical platform, and the PRIME suite for capital markets — AI-driven products for banking, trading, hospitality, and healthcare."
     >
       <header className="lm-hero">
@@ -39,7 +35,7 @@ export default function Home() {
         <div className="lm-hero__inner">
           <p className="lm-hero__kicker">Magic in the Making</p>
           <h1 className="lm-hero__title">
-            Ideas in the 5<sup>th</sup> Dimension
+            Enterprise in the 5<sup>th</sup> Dimension
           </h1>
           <p className="lm-hero__lead">
             We are responsible for all kinds of weird and wonderful stuff —
@@ -82,7 +78,6 @@ export default function Home() {
             <div className="feature-grid">
               {highlights.map((h) => (
                 <div className="feature" key={h.title}>
-                  <div className="feature__icon">{h.icon}</div>
                   <h3 className="feature__title">{h.title}</h3>
                   <p className="feature__text">{h.text}</p>
                 </div>
@@ -106,7 +101,6 @@ export default function Home() {
             </div>
             <div className="feature-grid">
               <div className="feature">
-                <div className="feature__icon">{'\u{1F4DA}'}</div>
                 <h3 className="feature__title">95+ repositories</h3>
                 <p className="feature__text">
                   Actively designed and maintained across our organizations —
@@ -115,7 +109,6 @@ export default function Home() {
                 </p>
               </div>
               <div className="feature">
-                <div className="feature__icon">{'\u{1F4D6}'}</div>
                 <h3 className="feature__title">Design in the open</h3>
                 <p className="feature__text">
                   Our architecture and design documents live next to the
@@ -124,7 +117,6 @@ export default function Home() {
                 </p>
               </div>
               <div className="feature">
-                <div className="feature__icon">{'\u{1F527}'}</div>
                 <h3 className="feature__title">Code you can read</h3>
                 <p className="feature__text">
                   From the platform SDKs to complete verticals — the same
@@ -133,7 +125,6 @@ export default function Home() {
                 </p>
               </div>
               <div className="feature">
-                <div className="feature__icon">{'\u{1F91D}'}</div>
                 <h3 className="feature__title">Built together</h3>
                 <p className="feature__text">
                   We contribute upstream, publish what we learn, and help the
@@ -162,7 +153,6 @@ export default function Home() {
               {productCategories.map((c) => (
                 <Link to={c.href} className="product-card" key={c.label}>
                   <div className="product-card__body">
-                    <div className="feature__icon">{c.icon}</div>
                     <h3 className="product-card__title">{c.label}</h3>
                     <p className="product-card__desc">{c.description}</p>
                     <span className="product-card__link">Learn more &rarr;</span>
